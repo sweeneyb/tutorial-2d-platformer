@@ -33,5 +33,7 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	
-	var isLeft = velocity.x < 0
-	sprite_2d.flip_h = isLeft
+	if velocity.x < 0:
+		sprite_2d.flip_h = true
+	if velocity.x > 0:
+		sprite_2d.flip_h = false
