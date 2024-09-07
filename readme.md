@@ -5,3 +5,5 @@ https://www.youtube.com/watch?v=5V9f3MT86M8
 
 With sprite packs from:
 https://pixelfrog-assets.itch.io/pixel-adventure-1
+
+To quickly play a scene, press F6
