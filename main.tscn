@@ -223,5 +223,7 @@ text = "Welcome!"
 wait_time = 2.0
 one_shot = true
 
+[node name="JsonGetData" type="HTTPRequest" parent="HUD"]
+
 [connection signal="body_entered" from="Checkpoint(noFlag)/Area2D" to="Checkpoint(noFlag)/Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Checkpoint(noFlag)/Area2D" to="Checkpoint(noFlag)/Area2D" method="_on_body_exited"]
